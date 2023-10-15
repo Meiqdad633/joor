@@ -1,0 +1,87 @@
+/* Global dark background */
+body {
+  background-color: #25272c;
+  color: #ccc;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Dark titlebar styles */
+.dark-titlebar {
+  padding: 5px;
+  padding-bottom: 0%;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.dark-titlebar #maintitle a {
+  color: #FFA500;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 100px;
+  transition: color 0.3s;
+}
+
+.dark-titlebar #maintitle a:hover {
+  color: #B87333;
+}
+
+.dark-titlebar #secondt {
+  color: #ffffff;
+  font-size: 22px;
+  margin-top: 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Style for the dropdown container */
+.dropdown {
+  position: absolute; /* Change to absolute positioning */
+  top: 6%; /* Adjust the top value to separate the dropdown from the title bar */
+  left: 3%; /* Add some space from the left */
+}
+
+/* Style for the button (icon) that triggers the dropdown */
+.dropbtn {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 30px;
+  position: relative; /* Add position: relative */
+}
+
+/* Style for the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(43, 43, 43);
+  min-width: 100px;
+  border-radius: 5px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: auto;
+  left: -60%;
+}
+
+/* Style for dropdown links */
+.dropdown-content a {
+  font-weight: bold;
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover */
+.dropdown-content a:hover {
+  border-radius: 5px;
+  background-color: rgb(78, 78, 78) ;
+}
+
+/* Show the dropdown content when the button is clicked */
+.dropdown:hover .dropdown-content {
+  display: block;
+  
+}

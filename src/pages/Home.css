@@ -1,0 +1,75 @@
+
+/* Dark background for the Home component */
+.search-container {
+  display: flex;
+  align-items: center; /* Vertically align the content in the center */
+  justify-content: center;
+}
+
+/* Icon containers with creative styling */
+.icon-containerh {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  padding: 5% 0% 0% 5%;
+  width: 30%;
+}
+
+.icon-containerh i{
+  color: white;
+  font-size: 24px;
+  margin-right: 10px;
+  padding: 2%;
+}
+
+/* Input styles */
+.icon-containerh > input {
+  background-color: #222;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  outline: none;
+  height: 40px; /* Adjust the height in pixels as needed */
+  font-size: 16px;
+}
+
+/* Placeholder text styles */
+input::placeholder {
+  font-size: 18px; /* Adjust the font size to your preference */
+  /* You can also specify other styles like color if needed */
+  font-weight: bold;
+}
+
+/* Button style */
+.clickbuttonh {
+  margin-top: 3%;
+  font-size: 30px;
+  background-color: #ff8800ef;
+  color: #25272c;
+  border: none;
+  padding: 5px 60px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  width: 20%;
+}
+
+.clickbuttonh:hover {
+  background-color: #ff6600da; /* Slightly darker on hover */
+}
+
+/* Advertisement text style */
+.advertisement {
+  color: #ffffff;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+/* Styling for labels (you can adjust these as needed) */
+label {
+  display: block;
+  margin-bottom: 10px;
+}

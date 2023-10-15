@@ -1,0 +1,89 @@
+/* Signup.css */
+body {
+    direction: rtl;
+    text-align: center;
+  }
+  
+  .signup-container {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 10px;
+    border: 1px solid #FFA500;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+
+  }
+
+  
+  .title_container > h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .input-containers {
+    display: flex;
+
+
+  }
+  
+  .input-containers > input {
+    width: 100%; /* Make input fields full width */
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #25272c;
+    justify-content: space-between;
+    border: 1px solid #FFA500;
+    padding: 2%;
+    color: white;
+    font-size: 14px;
+
+  }
+  
+  .button-container {
+    margin-top: 4%;
+    width: 60%;
+
+  }
+  .google_signin {
+    font-size: 18px;
+  }
+  
+  .google-login {
+    margin-top: 2%;
+    background-color: transparent;
+    border: 1px solid #FFA500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .googletext {
+    color: #FFA500;
+    vertical-align: middle;
+  }
+  
+  .google-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .password-reset {
+    margin-top: 10px;
+    color: #FFA500;
+  }
+  
+  .signup-link {
+    color: white;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #FFA500;
+  }
+  

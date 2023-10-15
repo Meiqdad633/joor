@@ -1,0 +1,88 @@
+
+
+.login-container {
+    margin: 0 auto;
+    max-width: 290px;
+    padding: 10px;
+    border: 1px solid #FFA500;
+    border-radius: 5px;
+
+    
+  }
+  
+  .loginh {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .input-container {
+    margin: 10px 0;
+  }
+  
+  .input-container > input {
+    
+    padding: 14px;
+    width: 90%;
+    background-color: transparent;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #FFA500;
+    color: #ffffff;
+    font-size: 16px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #FFA500;
+    color: #25272c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 22px;
+
+  }
+  
+  .button-container {
+    margin: 10px 0;
+  }
+  
+
+.google-login{
+    margin-top: 2%;
+    background-color: transparent;
+    border: 1px solid #FFA500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.googletext{
+    color: #FFA500;
+    vertical-align: middle
+  }
+  .google-icon {
+
+    width: 30px; /* Adjust the size to your preference */
+    height: 30px; /* Adjust the size to your preference */
+    margin-right: 10px; /* Add some spacing between the icon and text */
+  }
+
+  
+  .password-reset{
+    margin-top: 10px;
+    color: #FFA500;
+    margin-bottom: 3%;
+  }
+  .signup-link{
+    color: white;
+  }
+
+  
+  a {
+    text-decoration: none;
+    color: #FFA500;
+  }
+  
